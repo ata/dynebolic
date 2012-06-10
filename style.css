@@ -1,0 +1,278 @@
+body{
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:0.8em;
+ padding:0;
+ margin:0;
+ background: #F0F0F0; 
+ color:#333333;
+ text-align:center;
+}
+.wraper{
+ width:768px;
+ background:url(img/big_middle.gif) repeat-y;
+ text-align:center;
+ margin:0 auto;
+}
+.main{
+ margin:0;
+ padding:0 10px 10px 10px;
+ background:url(img/big_bottom.gif) no-repeat bottom left;
+}
+.header{
+ position:relative;
+ height:150px;
+ padding:0;
+ margin:0 auto;
+ border-bottom:1px solid #999999;
+}
+#logo{
+ text-transform:capitalize;
+ position:absolute;
+ top:0;
+ left:20px;
+ width:150px;
+ height:150px;
+ text-align:center;
+}
+#logo h3{
+ position:absolute;
+ font-size:12px;
+ padding:0;
+ margin:0;
+ bottom:0;
+ right:0;
+ left:0;
+}
+#logo h2{
+ text-transform:uppercase;
+ position:absolute;
+ color:#FF0006;
+ font-size:14px;
+ padding:0;
+ margin:0;
+ right:0;
+ left:0;
+ bottom:30px;;
+}
+#logo img{
+ /*height:120px;
+ width:120px;*/
+ margin:0 auto;
+}
+#status{
+ position:absolute;
+ right:0;
+ top:5px;
+}
+#status p{
+ margin:0;
+ padding:0;
+}
+#name{
+ text-align:right;
+ position:absolute;
+ bottom:10px;
+ right:0;
+}
+#name h2{
+ font-size:30px;
+ text-transform:capitalize;
+ padding:0;
+ margin:0;
+}
+#name h3{
+ text-transform:uppercase;
+ padding:0;
+ margin:0;
+}
+.menu{
+ text-align:left;
+ background:#F5F5F5;
+ font-size:90%;
+}
+.menu ul{
+ list-style:none;
+ margin:0;
+ margin-left:220px;
+ padding:0;
+ padding-top:1em;
+}
+.menu li{
+ display:inline;
+}
+.menu a:link,.menu a:visited{
+ padding:0.4em 1em 0 1em;
+ color:#404040;
+ background:#FFFFFF;
+ text-decoration:none;
+ font-weight:bold;
+ border:1px solid #999999;
+ border-bottom:none;
+}
+.menu a:hover{
+  padding:0.6em 1em 0 1em;
+}
+.content{
+ background:#F5F5F5;
+ text-align:left;
+ border-top:1px solid #999999;
+}
+#content{
+ margin:10px;
+ text-align:left;
+}
+#content #result{
+ text-align:center;
+}
+#content #paging{
+ text-align:center;
+}
+#content #paging a{
+ margin:5px;
+}
+#result h2{
+ margin:10px 0;
+ padding:0;
+}
+#content table{
+ margin:0 auto;
+ text-align:left;
+}
+#content th{
+ color:#FFFFFF;
+ background:#333333;
+ padding:5px 5px;
+}
+#content td{
+ padding:5px;
+ vertical-align:top;
+}
+#content a:link, #content a:visited{
+ text-decoration:none;
+ color:#0011FF;
+ border:none;
+}
+#content a:hover{
+ text-decoration:underline;
+}
+#content img{
+ border:none;
+}
+.maincontent{
+ background-color:#FFFFFF;
+ float:left;
+ width:auto;
+ margin:0 ;
+ width:547px;
+ border-left:1px solid #999999;
+ border-bottom:1px solid #999999;
+}
+.sidebar{
+ text-align:center;
+ width:200px;
+ margin:0;
+ margin-top:-2px;
+ float:left;
+ background:#F5F5F5;
+ padding:0;
+}
+.boxside{
+ font-size:10px;
+ text-align:left;
+ margin:10px;
+ margin-top:0;
+ margin-left:0;
+ background:#FFFFFF;
+ padding:0;
+ border:1px solid #999999;
+}
+.boxside h4{
+ font-size:12px;
+ color:#FFFFFF;
+ background-color:#333333;
+ padding:3px;
+ margin:-1px;
+ margin-bottom:5px;
+}
+.boxside a:link,.boxside a:visited{
+ margin-left:5px;
+ text-decoration:none;
+ color:#333333;
+}
+.boxside table{
+}
+.boxside td{
+ background-color:#F5F5F5;
+ vertical-align:top;
+}
+.boxside p{
+ margin:5px;
+ text-align:center;
+}
+.boxside img{
+ border:none;
+}
+.footer{
+ background-color:#FFFFFF;
+ border-top:1px solid #CCCCCC;
+ clear:both;
+ margin:0 auto;
+ height:30px;
+ text-align:right;
+}
+.footer p{
+ margin-top:5px;
+}
+#formlogin{
+ font-weight:bold;
+ width:160px;
+ text-align:left;
+ margin:20px auto;
+}
+#form input,#form select,#form textarea{
+ width:200px;
+ background-color:#FFF4E8;
+}
+#form input:focus,#form select:focus,#form textarea:focus{
+ background-color:#FFDA89;
+}
+#form textarea{
+ height:100px;
+}
+#form #submit{
+ margin-top:20px;
+}
+.t{
+ width:520px;
+}
+.t td{
+ background-color:#F8F8F8;
+}
+#dash table{
+ width:520px;
+}
+#dash td{
+ background-color:#F5F5F5;
+ vertical-align:top;
+}
+#dash textarea{
+ width:300px;
+}
+#msgerror{
+ background-color:#FFDDDD;
+ border:2px solid #FF0000;
+ font-size:small;
+ color:#FF0000;
+}
+#saveedit{
+ background-color:#C4FBC8;
+ padding:5px;
+ text-align:center;
+ border:2px solid #00FF13;
+ color:#00A30C;
+ margin:0 100px;
+}
+textarea#lebar{
+ width:400px;
+ height:300px;
+}
